@@ -1,0 +1,75 @@
+@font-face {
+  font-family: mainTitle;
+  src: url("../fonts/ka1.ttf");
+
+}
+
+.pacman{
+  height: 45px;
+  width: 45px;
+  background-image: url("../img/pacman-eating.gif");
+  display: inline-block;
+  background-size: cover;
+  background-color: black;
+}
+
+.wall{
+  height: 45px;
+  width: 45px;
+  background-image: url("../img/wall.png");
+  display: inline-block;
+}
+
+.coin{
+height: 45px;
+width: 45px;
+background-image: url('../img/coin.png');
+display: inline-block;
+}
+
+.ground{
+  height: 45px;
+  width: 45px;
+  background-image: url('bg.png');
+  display: inline-block;
+}
+
+.container{
+  margin: auto;
+  display: inline-block;
+  margin-left: 420px;
+}
+
+body{
+  background-image: url("../img/newBackground.jpg");
+}
+
+header{
+  color: white;
+  margin-bottom: 40px;
+
+}
+
+h3{
+  font-family: mainTitle;
+  color: white;
+  font-size: 35px;
+  background-color: grey;
+
+}
+
+h2{
+  font-family: mainTitle;
+  position: relative;
+  color: white;
+}
+
+h1{
+  font-family: mainTitle;
+color: white;
+background-color: grey;
+}
+
+div{
+  line-height: 0px;
+}
